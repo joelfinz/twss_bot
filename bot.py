@@ -8,7 +8,7 @@ import pickle
 import tensorflow as tf
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
-updater = Updater(token='1360818300:AAHVIkYmMY-6uA6wvX728RcMem4E6wHgKgY',use_context=True)
+updater = Updater(token=' ',use_context=True)
 dispatcher = updater.dispatcher
 
 def start(update,context):
